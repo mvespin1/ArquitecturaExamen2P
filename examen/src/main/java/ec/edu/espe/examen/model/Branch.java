@@ -14,7 +14,7 @@ public class Branch {
 
     @Id
     private String id;
-    
+
     private String emailAddress;
     private String name;
     private String phoneNumber;
@@ -22,4 +22,6 @@ public class Branch {
     private LocalDateTime creationDate;
     private LocalDateTime lastModifiedDate;
     private List<BranchHoliday> branchHolidays;
+
+    
 } 
